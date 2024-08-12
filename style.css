@@ -1,0 +1,8 @@
+body {
+    flex-direction: column;
+}
+
+img {
+    width: auto;
+    height: 400px;
+}
