@@ -44,6 +44,17 @@ h2 {
     margin-top: 0px;
 }
 
+.button-1 {
+  background-color: #3882F6;
+  border: 0px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: #F9FAF8;
+}
+
 
 
 ul {
