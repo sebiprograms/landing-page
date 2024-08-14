@@ -5,17 +5,19 @@ body {
 }
 
 img {
-    width: auto;
-    height: 250px;
+    width: 450px;
+    height: 180px;
 }
 
 .top {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
     color: #F9FAF8;
+
+    padding-bottom: 50px;
 }
 
 .header {
@@ -28,9 +30,21 @@ h1 {
     font-size: 24px;
 }
 
-.content-top {
-    display: flex;
+h2 {
+    margin: 0px;
 }
+
+.content-top {
+    padding-top: 25px;
+    display: flex;
+    gap: 16px;
+}
+
+.innercont-top  {
+    margin-top: 0px;
+}
+
+
 
 ul {
     display: inline-flex;
