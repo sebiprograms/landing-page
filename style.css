@@ -44,7 +44,7 @@ h2 {
     margin-top: 0px;
 }
 
-.button-1 {
+button {
   background-color: #3882F6;
   border: 0px;
   padding-top: 5px;
@@ -62,4 +62,12 @@ ul {
     list-style: none;
     gap: 16px;
 }
+
+.center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 
