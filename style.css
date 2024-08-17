@@ -4,11 +4,12 @@ body {
     margin: 0px;
     background-color: #F9FAF8;
     box-sizing: border-box;
+    flex: 1;
 }
 
 img {
     width: 450px;
-    height: 180px;
+    height: auto;
 }
 
 .top {
@@ -36,7 +37,10 @@ h2 {
     margin: 0px;
 }
 
-
+.innercont-top p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .content-top {
     padding-top: 25px;
@@ -53,7 +57,7 @@ button {
   border: 0px;
   padding-top: 5px;
   padding-left: 15px;
-  padding-right: 15;
+  padding-right: 15px;
   padding-bottom: 5px;
   border-radius: 5px;
   color: #F9FAF8;
@@ -65,6 +69,7 @@ button {
 ul {
     display: inline-flex;
     list-style: none;
+    color: #E5E7EB;
     gap: 16px;
 }
 
@@ -74,18 +79,30 @@ ul {
     text-align: center;
 }
 
+.center h2 {
+    margin-top: 25px;
+}
+
 .content-center {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 }
+
+
 .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 25px;
     width: 100px;
+    color: #6a6b6c;
+    font-size: 12px;
+}
+
+.box-p {
+    margin-top: 2px;
 }
 
 .image-square {
