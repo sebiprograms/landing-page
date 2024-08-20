@@ -8,9 +8,8 @@ body {
 }
 
 img {
-    width: 400px;
-    height: auto;
-    object-fit: contain;
+    max-width: 400px;
+    max-height: auto;
 }
 
 .top {
@@ -27,6 +26,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 .header {
@@ -48,7 +48,18 @@ h2 {
 .innercont-top p {
     font-size: 18px;
     color: #E5E7EB;
-    width: 200px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.top-h2 {
+    max-width: 200px;
+    padding: 0px;
+    margin: 0%;
+}
+
+.top-par {
+    max-width: 400px;
 }
 
 .content-top {
