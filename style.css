@@ -8,29 +8,37 @@ body {
 }
 
 img {
-    width: 450px;
+    width: 400px;
     height: auto;
+    object-fit: contain;
 }
 
 .top {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
     color: #F9FAF8;
-
     padding-bottom: 50px;
+}
+
+.content-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+    margin-right: 0px;
+    align-items: center;
 }
 
 h1 {
     font-size: 24px;
+    justify-self: start;
 }
 
 h2 {
@@ -40,6 +48,7 @@ h2 {
 .innercont-top p {
     font-size: 18px;
     color: #E5E7EB;
+    width: 200px;
 }
 
 .content-top {
