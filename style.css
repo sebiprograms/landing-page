@@ -61,6 +61,7 @@ button {
   padding-bottom: 5px;
   border-radius: 5px;
   color: #F9FAF8;
+  
 }
 
 
@@ -141,4 +142,51 @@ ul {
     font-size: 15px;
     font-weight: 700;
     font-style: normal;
+}
+
+
+.signup-box {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    gap: 10px;
+    color: #E5E7EB;
+    height: 85px;
+}
+
+.top-p {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.bottom-p {
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.sign-button {
+    align-self: center;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+
+.sign-up {
+    height: 125px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer {
+    background-color: #1F2937;
+    height: 40px;
 }
