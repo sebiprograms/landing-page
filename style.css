@@ -188,6 +188,11 @@ ul {
 
 
 .footer {
+    display: flex;
     background-color: #1F2937;
-    height: 40px;
+    color: #E5E7EB;
+    font-size: 13px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
 }
