@@ -149,12 +149,13 @@ ul {
     display: flex;
     background-color: #3882F6;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 5px;
-    gap: 10px;
+    gap: 15px;
     color: #E5E7EB;
     height: 85px;
+    align-items: center;
 }
 
 .top-p {
