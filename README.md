@@ -14,7 +14,7 @@ progress for me and other to look back on if they wish to contribute.
 - [x] CSS
 - [x] GIT
 - [x] Creativity
-- [] Javascript
+- [ ] Javascript
 
 
 Image credits:
