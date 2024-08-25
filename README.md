@@ -18,7 +18,7 @@ progress for me and other to look back on if they wish to contribute.
 
 
 ### Progress
-Check out my progress here! [Landing-Page(https://sebiprograms.github.io/landing-page/)]
+Check out my progress here! [Landing-Page](https://sebiprograms.github.io/landing-page/)
 
 
 Image credits:
